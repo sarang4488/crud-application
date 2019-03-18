@@ -1,5 +1,5 @@
 {
-  "name": "ingenius-backend",
+  "name": "ingenius-coding-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mariadb": "^2.0.3",
+    "sequelize": "^5.1.0"
+  }
 }
