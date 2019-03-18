@@ -123,7 +123,7 @@ class SimpleTable extends Component {
   render() {
     const { students } = this.props;
     const { edit } = this.state;
-    const { editStudent } = this.props;
+
     return (
       <Paper>
         <Table>
